@@ -1718,3 +1718,12 @@ section { padding: 90px 0; }
     height: 160px !important;
   }
 }
+@media (max-width: 768px) {
+  .nav-inner { height: auto; padding: 8px 0; flex-wrap: wrap; gap: 6px; }
+  .nav-logo-icon img { width: 32px !important; height: 32px !important; }
+  .nav-logo-text strong { font-size: .75rem; }
+  .nav-logo-text span { display: none; }
+  .nav-links { order: 3; width: 100%; justify-content: center; border-top: 1px solid var(--grey-200); padding-top: 6px; }
+  .nav-links a { padding: 5px 10px; font-size: .78rem; }
+  .nav-cta .btn { padding: 7px 12px; font-size: .75rem; }
+}
