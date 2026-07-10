@@ -21,24 +21,23 @@ function renderNav(activePage) {
       <div class="nav-inner">
         <a href="../index.html" class="nav-logo">
           <div class="nav-logo-icon" style="background:none;padding:0;">
-            <img src="/images/logo.jpeg" alt="CBSE Maths World" style="width:44px;height:44px;object-fit:contain;border-radius:8px;">
+            <img src="/images/logo.png" alt="CBSE Maths World" style="width:44px;height:44px;object-fit:contain;border-radius:8px;">
           </div>
           <div class="nav-logo-text">
             <strong>CBSE MATHS WORLD</strong>
             <span>Learn · Practice · Excel</span>
           </div>
         </a>
-        <div class="nav-links">
-          ${links}
+        <div class="nav-links" id="navLinks">
+          <a href="../index.html" class="${activePage === 'Home' ? 'active' : ''}">Home</a>
+          <a href="../pages/about.html" class="${activePage === 'About Us' ? 'active' : ''}">About Us</a>
+          <a href="../pages/contact.html" class="${activePage === 'Contact Us' ? 'active' : ''}">Contact Us</a>
         </div>
         <div class="nav-cta">
-          <a href="https://youtu.be/Lcu7txMV0Q4?si=p4Ay1LLiDti_EWFn" target="_blank" class="btn btn-blue">▶ Watch Demo</a>
+          <a href="https://wa.me/918891458808" target="_blank" class="btn btn-blue" style="font-size:.82rem;padding:9px 18px;">💬 WhatsApp</a>
         </div>
-        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
-          <span></span><span></span><span></span>
-        </button>
       </div>
-    </div>
+   </div>
   </nav>
   <div class="mobile-menu" id="mobileMenu">
     <a href="../index.html">🏠 Home</a>
