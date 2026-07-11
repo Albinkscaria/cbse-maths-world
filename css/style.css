@@ -1752,3 +1752,12 @@ section { padding: 90px 0; }
     font-size: .82rem !important; 
   }
 }
+@media (max-width: 768px) {
+  .hero-visual div[style*="width:260px;height:260px"] {
+    width: 180px !important;
+    height: 180px !important;
+  }
+  .hero-visual div[style*="width:260px;background"] {
+    width: 180px !important;
+  }
+}
