@@ -1746,3 +1746,9 @@ section { padding: 90px 0; }
     margin-top: 0 !important;
   }
 }
+@media (max-width: 768px) {
+  .btn-lg { 
+    padding: 11px 18px !important; 
+    font-size: .82rem !important; 
+  }
+}
