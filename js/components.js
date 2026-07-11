@@ -20,8 +20,8 @@ function renderNav(activePage) {
     <div class="container">
       <div class="nav-inner">
         <a href="../index.html" class="nav-logo">
-          <div class="nav-logo-icon" style="background:none;padding:0;">
-            <img src="/images/logo.png" alt="CBSE Maths World" style="width:44px;height:44px;object-fit:contain;border-radius:8px;">
+          <div class="nav-logo-icon" style="background:none;padding:0;width:36px;height:36px;">
+            <img src="/images/logo.png" alt="CBSE Maths World" style="width:36px;height:36px;object-fit:contain;border-radius:6px;">
           </div>
           <div class="nav-logo-text">
             <strong>CBSE MATHS WORLD</strong>
@@ -56,8 +56,8 @@ function renderFooter() {
       <div class="footer-grid">
         <div class="footer-brand">
           <div class="footer-logo">
-            <div class="nav-logo-icon" style="background:none;padding:0;">
-              <img src="/images/logo.jpeg" alt="CBSE Maths World" style="width:44px;height:44px;object-fit:contain;border-radius:8px;">
+            <div class="nav-logo-icon" style="background:none;padding:0;width:36px;height:36px;">
+              <img src="/images/logo.jpeg" alt="CBSE Maths World" style="width:36px;height:36px;object-fit:contain;border-radius:6px;">
             </div>
             <div class="nav-logo-text">
               <strong>CBSE MATHS WORLD</strong>
