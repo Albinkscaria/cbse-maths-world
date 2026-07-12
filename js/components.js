@@ -21,7 +21,7 @@ function renderNav(activePage) {
       <div class="nav-inner">
         <a href="../index.html" class="nav-logo">
           <div class="nav-logo-icon" style="background:none;padding:0;width:36px;height:36px;">
-            <img src="/images/logo.png" alt="CBSE Maths World" style="width:36px;height:36px;object-fit:contain;border-radius:6px;">
+            <img src="/images/logo.jpeg" alt="CBSE Maths World" style="width:36px;height:36px;object-fit:contain;border-radius:6px;">
           </div>
           <div class="nav-logo-text">
             <strong>CBSE MATHS WORLD</strong>
