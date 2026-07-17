@@ -43,7 +43,7 @@ function renderNav(activePage) {
     <a href="../index.html">🏠 Home</a>
     <a href="../pages/about.html">👤 About Us</a>
     <a href="../pages/contact.html">✉ Contact Us</a>
-    <a href="https://youtube.com/shorts/-452o4rBLW8?si=iZ0nSRHXCxnadekZ" target="_blank" class="btn btn-primary" style="justify-content:center;margin-top:8px;">▶ Watch a Demo Class</a>
+    <a href="https://www.youtube.com/shorts/-452o4rBLW8" target="_blank" class="btn btn-primary" style="justify-content:center;margin-top:8px;">▶ Watch a Demo Class</a>
     <a href="https://wa.me/918891458808" target="_blank" class="btn btn-blue" style="justify-content:center;background:#25d366;border:none;">💬 Chat on WhatsApp</a>
   </div>`;
 }
